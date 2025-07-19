@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
 }
 
 bpdy {
@@ -11,4 +12,9 @@ bpdy {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.app {
+  width: 80%;
+  margin: 0 auto;
 }
