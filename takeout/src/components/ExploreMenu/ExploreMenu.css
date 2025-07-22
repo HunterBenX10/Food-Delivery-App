@@ -1,0 +1,40 @@
+.explore_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.explore_menu h1 {
+  font-weight: 500;
+}
+
+.explore_menu text {
+  max-width: 60%;
+  columns: hsl(0, 0%, 50%);
+}
+
+.explore-menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 20px 0px;
+  text-align: center;
+  overflow-x: auto;
+}
+
+.explore-menu-list::-webkit-scrollbar {
+  display: none;
+}
+
+.explore-menu-list-item img {
+  width: 7.5vw;
+  min-width: 80px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
+}
+
+.explore-menu-list-item p {
+  margin-top: 10px;
+}
