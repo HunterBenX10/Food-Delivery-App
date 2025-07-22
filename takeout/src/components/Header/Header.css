@@ -38,3 +38,8 @@
   border-radius: 50px;
   padding: 1vw 2.3vw;
 }
+
+.header-content button:hover {
+  background-color: hsl(0, 0%, 80%);
+  cursor: pointer;
+}
