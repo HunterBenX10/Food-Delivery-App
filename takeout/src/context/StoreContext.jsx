@@ -3,7 +3,7 @@ import { food_list } from "../assets/assets";
 
 export const StoreContext = createContext();
 
-const StoreContextProvider = ({ props }) => {
+const StoreContextProvider = (props) => {
   const contextValue = {
     food_list,
   };
