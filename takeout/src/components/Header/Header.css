@@ -9,4 +9,32 @@
 .header-content {
   position: absolute;
   display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5vw;
+  max-width: 50%;
+  bottom: 10%;
+  left: 6vw;
+}
+
+.header-content h2 {
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+  font-size: max(4.5vw, 22px);
+}
+
+.header-content p {
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  font-size: max(2.5vw, 14px);
+}
+
+.header-content button {
+  border: none;
+  color: hsl(0, 0%, 20%);
+  font-weight: 500;
+  background-color: hsl(0, 0%, 100%);
+  font-size: max(1vw, 13px);
+  border-radius: 50px;
+  padding: 1vw 2.3vw;
 }
